@@ -2,30 +2,171 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
-.a
+     .a
+    {
+        background-color: white;
+        border:none;
+        box-shadow: 1px 1px 1px 1px #a8a8a8;
+        padding-left: 1%;
+    }
+    .search
+    {
+        background-color: rgb(37, 76, 204);
+        border:none;
+        color:white;
+        cursor: pointer;
+    }
+    .button
+    {
+        padding-top: 0.5%;
+    }
+    input:focus
+    {
+        outline: none;
+    }
+    @media only screen and  (min-device-width:320px) and (max-device-width:425px) 
+    {
+        .a
+        {
+            width: 55%;
+            height:22px;
+            font-size: 8px;
+        }
+        .font
+        {
+            font-size: 12px; 
+        }
+        .search
+        {
+            border-radius: 3px;
+            height: 18px;
+            padding:0 2% 0 2%;
+            
+            font-size: 8px;
+        }
+        .img
+        {
+            height: 15%;
+            width:15%;
+        }
+        
+    }
+    
+    @media only screen and  (min-device-width:426px) and (max-device-width:768px) 
+    {
+        .a
+        {
+            width: 53%;
+            height:35px;
+            font-size: 12px;
+        }
+        .search
+        {
+            border-radius: 3px;
+            height: 30px;
+            padding:0 2% 0 2%;
+            
+            font-size: 10px;
+        }
+       
+        .img
+        {
+            height: 10%;
+            width:10%;
+        }
+        
+    }
+    
+@media only screen and  (min-device-width:769px) and (max-device-width:1024px) 
 {
-    width: 35%;
-    background-color: white;
-    border:none;
-    height:35px;
-    box-shadow: 1px 1px 1px 1px #888888;
+    .a
+    {
+        width: 45%;
+        height:35px;
+        font-size: 12px;
+    }
+    .search
+    {
+        border-radius: 3px;
+        height: 35px;
+        padding:0 2% 0 2%;
+        
+        font-size: 10px;
+    }
+    
+    .img
+    {
+        height: 10%;
+        width:10%;
+    }
+    
 }
-.a::selection
-{
-    border: none;
-}
-.search
-{
-    background-color: rgb(37, 76, 204);
-    border-radius: 3px;
-    height: 35px;
-    padding:0 2% 0 2%;
-    border:none;
-    color:white;
-    cursor: pointer;
-}
-.button
-{
-    padding-top: 3%;
 
+@media only screen and  (min-device-width:1025px) and (max-device-width:1440px) 
+{
+    .a
+    {
+        width: 45%;
+        height:35px;
+        font-size: 13px;
+    }
+    .search
+    {
+        border-radius: 3px;
+        height: 35px;
+        padding:0 2% 0 2%;
+        font-size: 12px;
+    }
+    
+    .img
+    {
+        height: 10%;
+        width:10%;
+    }
+    
+}
+
+@media only screen and  (min-device-width:1441px) and (max-device-width:1920px) 
+{
+    .a
+    {
+        font-size: 15px;
+        width: 35%;
+        height:45px;
+    }
+    .search
+    {
+        font-size: 13px;
+        border-radius: 3px;
+        height: 40px;
+        padding:0 2% 0 2%;
+    }
+    
+    .img
+    {
+        height: 10%;
+        width:10%;
+    }
+}
+@media only screen and  (min-device-width:1921px) and (max-device-width:2560px) 
+{
+    .a
+    {
+        width: 35%;
+        height:55px;
+        font-size: 20px;
+    }
+    .search
+    {
+        border-radius: 3px;
+        height: 50px;
+        padding:0 2% 0 2%;
+        font-size: 18px;
+    }
+    
+    .img
+    {
+        height: 10%;
+        width:10%;
+    }
 }

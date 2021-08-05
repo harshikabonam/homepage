@@ -1,6 +1,6 @@
 <body>
 <div class="container" style="text-align: center;padding-top: 5%;">
-    <img src="../assets/1551275969602.png">
+    <img src="../assets/1551275969602.png" class="img">
 <!-- <form class="example-form">
     <mat-form-field class="example-full-width a" appearance="fill">
       <mat-label>Search</mat-label>
@@ -24,7 +24,7 @@
            [formControl]="myControl"
            [matAutocomplete]="auto" class="a">
     <mat-autocomplete #auto="matAutocomplete" cdkScrollable>
-      <mat-option *ngFor="let street of filteredOptions | async" [value]="street">
+      <mat-option *ngFor="let street of filteredOptions | async" [value]="street" class="font">
         {{street}}
       </mat-option>
    
