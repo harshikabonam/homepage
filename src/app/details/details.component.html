@@ -1,0 +1,42 @@
+<body>
+    <div class="container" style="text-align: center;padding-top: 5%;">
+        <img src="../assets/1551275969602.png" class="img">
+    <!-- <form class="example-form">
+        <mat-form-field class="example-full-width a" appearance="fill">
+          <mat-label>Search</mat-label>
+          <input type="text"
+                 placeholder="Pick one"
+                 aria-label="Number"
+                 matInput
+                 [formControl]="myControl"
+                 [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+      </form> -->
+    
+      <form class="example-form" style="padding-top: 2%;">
+        <input type="text"
+               placeholder="Enter the Company Name"
+               [formControl]="myControl"
+               #searchvalue
+               [matAutocomplete]="auto" class="a" (input)="getdata(searchvalue.value)"
+              >
+        <mat-autocomplete #auto="matAutocomplete" cdkScrollable>
+          <mat-option *ngFor="let street of filteredOptions | async" [value]="street" class="font"
+          (click)="getResult(street)">
+            {{street}}
+            <!-- {{this.p.jsonData['NameoftheCompnay']}} -->
+          </mat-option>
+       
+        </mat-autocomplete>
+      </form>
+      <div class="button">
+    <button class="search">search</button>
+    </div>
+    </div>
+    </body>
+    <!-- <app-home></app-home> -->

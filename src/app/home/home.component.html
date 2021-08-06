@@ -1,1 +1,235 @@
-<p>home works!</p>
+
+<!-- <p>{{a.jsonData[0]|json}}</p> -->
+<body style="padding-top: 5%;overflow-x:hidden ;">
+    <div class="container">
+        <table style="width: 100%;">
+
+  <tr>
+    <td colspan="2" class="box  col-lg-7" >
+        {{a.jsonData[0]['NameoftheCompnay']|json}}</td>
+    <td rowspan="5" class="col-lg-1"></td>
+    <td rowspan="5" class="box  col-lg-4">{{a.jsonData[0]['HOWBUSINESSISPERFORMAINGWHENCOMPARINGTOOTHERCOMPANIESINSAMEINDUSTRY']|json}}</td>
+   </tr>
+   <tr >
+    <td class="box  ">{{a.jsonData[0]['NSECODE']|json}}</td>
+    <td class="box  ">{{a.jsonData[0]['BSECODE']|json}}</td>
+   </tr>
+   <tr >
+    <td style="height: 20px;"></td>
+   </tr>
+   <tr>
+    <td colspan="2" class="box ">{{a.jsonData[0]['ABOUTCOMPANY']|json}}</td>
+   </tr>
+   <tr>
+    <td colspan="2" class="box ">{{a.jsonData[0]['LASTSIXMONTHSWORKPROFILE']|json}}</td>
+   </tr>
+</table>
+    <div class="a">
+        <table style="width:100%">
+            <tr class="row" >
+                <td class="col-lg-5 box " style="border-bottom: none;">  {{a.jsonData[0]['HOWINDUSTRYISRUNNINGFROMLASTTHREEYEARSANDTOBEEXPECTEDINTHENEXTTHREEYEARS']|json}}</td>
+                <td class="col-lg-1"></td>
+                <td class="col-lg-6 box " style="border-bottom: none;"> {{a.jsonData[0]['OVERVIEWOFTHECOMPANYAFTERMAKINGAINDEAPTHSTUDYOFFINNCIALSSIMILARCOMPANIESANDIndustries']|json}}</td>
+            </tr>
+        </table>
+        </div>
+    
+
+
+        
+    <!-- <div class="a"> -->
+        <table style="width:100%">
+            <tr class="row" >
+                <td class="col-lg-3 box ">{{a.jsonData[0]['QoneTAKEAWAYS']|json}}</td>
+                <td class="col-lg-3 box "> {{a.jsonData[0]['QtwoTAKEAWAYS']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['QthreeTAKEAWAYS']|json}}</td>
+                <td class="col-lg-3 box " > {{a.jsonData[0]['QfourTAKEAWAYS']|json}}</td>
+            </tr>
+        
+           <tr >
+            <td colspan="5" class="box "  >{{a.jsonData[0]['QoneTAKEAWAYS']|json}}</td>
+           </tr>
+       </table>
+
+       
+<!--  -->
+<div class="a">
+   <table>
+    <tr class="row">
+        <td class="col-lg-6 box " style="border-bottom: none;">{{a.jsonData[0]['MARKETCAPITAL']|json}}</td>
+        <td class="col-lg-1"></td>
+        <td class="col-lg-5 box " style="border-bottom: none;">{{a.jsonData[0]['VALUEOFSTOCK']|json}}</td>
+    </tr>
+   </table>
+   <table>
+       <tr class="row">
+        <td class="col-lg-4 col-md-4 box ">{{a.jsonData[0]['ROCE']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['EVEBITDA']|json}}</td>
+        <td class="col-lg-4 box " >{{a.jsonData[0]['ROE']|json}}</td>
+       </tr>
+       <tr class="row">
+        <td class="col-lg-4 box ">{{a.jsonData[0]['TAKEAWAYONROCE']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['TAKEAWAYONEVEBITDA']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['TAKEAWAYONROE']|json}}</td>
+       </tr>
+       <tr class="row">
+        <td class="col-lg-4 box " style="border-bottom: none;">{{a.jsonData[0]['TAKEAWAYONROCE']|json}}</td>
+        <td class="col-lg-4 box " style="border-bottom: none;">{{a.jsonData[0]['TAKEAWAYONEVEBITDA']|json}}</td>
+        <td class="col-lg-4 box " style="border-bottom: none;">{{a.jsonData[0]['TAKEAWAYONROE']|json}}</td>
+       </tr>
+   </table>
+   <table>
+    <tr class="row">
+     <td class="col-lg-3 box ">{{a.jsonData[0]['PERATIO']|json}}</td>
+     <td class="col-lg-3 box ">{{a.jsonData[0]['PAT']|json}}</td>
+     <td class="col-lg-3 box ">{{a.jsonData[0]['DEBTTOEQUITY']|json}}</td>
+     <td class="col-lg-3 box ">{{a.jsonData[0]['ROA']|json}}</td>
+    </tr>
+    <tr class="row">
+     <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYONPERATIO']|json}}</td>
+     <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYONPAT']|json}}</td>
+     <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYONDEBTTOEQUITY']|json}}</td>
+     <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYONROA']|json}}</td>
+    </tr>
+</table>
+</div>
+<!--  -->
+    <div class="a">
+<table style="width:100%">
+    <tr class="row" >
+        <td class="col-lg-3 box ">{{a.jsonData[0]['Strengths']|json}}</td>
+        <td class="col-lg-3 box ">{{a.jsonData[0]['Weekness']|json}}</td>
+        <td class="col-lg-3 box ">{{a.jsonData[0]['Opportunities']|json}}</td>
+        <td class="col-lg-3 box "> {{a.jsonData[0]['Threats']|json}}</td>
+    </tr>
+</table>
+</div>
+
+
+<!--  -->
+<div class="a">
+<table style="padding-top: 2%;width:100%">
+    <tr class="row" >
+        <td class="col-lg-4 box ">{{a.jsonData[0]['SalesinMINESTWO']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['ExpensesinMINESTWO']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['OperatingProfitinMINESTWO']|json}}</td>
+    </tr>
+    <tr class="row" >
+        <td class="col-lg-4 box ">{{a.jsonData[0]['salesinMINESONE']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['ExpensesinMINESone']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['OperatingProfitinMINESone']|json}}</td>
+    </tr>
+    <tr class="row" >
+        <td class="col-lg-4 box ">{{a.jsonData[0]['salesinZERO']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['Expensesinzero']|json}}</td>
+        <td class="col-lg-4 box ">{{a.jsonData[0]['OperatingProfitinzero']|json}}</td>
+    </tr>
+    <tr class="row" >
+        <td colspan="3" class="col-lg-4 box ">{{a.jsonData[0]['TAKEAWAYonOperatingProfit']|json}}</td>
+    </tr>
+</table>
+</div>
+<!--  -->
+<div class="a">
+    <table style="padding-top: 2%;width:100%">
+        <tr class="row" >
+            <td class="col-lg-3 box ">{{a.jsonData[0]['PATINMINESTWO']|json}}</td>
+            <td rowspan="3" class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYONPAT']|json}}</td>
+            <td class="col-lg-3 box ">{{a.jsonData[0]['ExpensesinMINESTWO']|json}}</td>
+            <td rowspan="3" class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYONEPS']|json}}</td>
+        </tr>
+        <tr class="row" >
+            <td class="col-lg-3 box ">{{a.jsonData[0]['PATINMINESONE']|json}}</td>
+            <td class="col-lg-3 box ">{{a.jsonData[0]['ExpensesinMINESone']|json}}</td>
+        </tr>
+        <tr class="row" >
+            <td class="col-lg-3 box ">{{a.jsonData[0]['PATINZERO']|json}}</td>
+            <td class="col-lg-3 box ">{{a.jsonData[0]['ExpensesinMINESone']|json}}</td>
+        </tr>
+    </table>
+    </div>
+    <!--  -->
+    <div class="a">
+        <table style="padding-top: 2%;width:100%">
+            <tr class="row" >
+                <td class="col-lg-3 box ">{{a.jsonData[0]['CompoundedSalesGrowthONEyear']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['CompoundedProfitGrowthforONEYear']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['StockPriceCAGRForoneyear']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['ReturnonEquityForoneYear']|json}}</td>
+            </tr>
+            <tr class="row" >
+                <td class="col-lg-3 box ">{{a.jsonData[0]['CompoundedSalesGrowthTWOyears']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['CompoundedProfitGrowthfortwoYears']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['StockPriceCAGRFortwoyears']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['ReturnonEquityFortwoYears']|json}}</td>
+              </tr>
+            <tr class="row" >
+                <td class="col-lg-3 box ">{{a.jsonData[0]['CompoundedSalesGrowthTHREEyears']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['CompoundedProfitGrowthforthreeYear']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['StockPriceCAGRForthreeyear']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['ReturnonEquityForthreeYears']|json}}</td>
+             </tr>
+            <tr class="row" >
+                <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYonCompoundedSalesGrowth']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYonCompoundedProfitGrowth']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYonStockPriceCAGR']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['TAKEAWAYOnReturnonEquity']|json}}</td>
+            </tr>
+        </table>
+        </div>
+
+        <!--  -->
+        <div class="a">
+            <table style="padding-top: 2%;width:100%">
+                <tr class="row" >
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['SHARECAPITALINMINESTWO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['RESERVESINMINESTWO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['LIABILITIESINMINESTWO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['ASSETSINMINESTWO']|json}}</td>
+            </tr>
+                <tr class="row" >
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['SHARECAPITALINMINESONE']|json}}</td>
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['RESERVESINMINESONE']|json}}</td>
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['LIABILITIESINMINESONE']|json}}</td>
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['ASSESTSINMINESONE']|json}}</td>
+                </tr>
+                <tr class="row" >
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['SHARECAPITALINZERO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['RESERVESINZERO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['LIABILITIESINZERO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['ASSESTSINZERO']|json}}</td>
+            </tr>
+                <tr class="row" >
+                    <td colspan="4" class="col-lg-4 box ">{{a.jsonData[0]['TAKEAWAYSFORCHANGESINTHREEYEARSBALANCESHEET']|json}}</td>
+                </tr>
+            </table>
+            </div>
+
+            <!--  -->
+        <div class="a">
+            <table style="padding-top: 2%;width:100%">
+                <tr class="row" >
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGSBYPROMOTERSINMINESTWO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGBYFIIINMINESTWO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGBYDIIMINESTWO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGSBYPUBLICINMINESTWO']|json}}</td>
+            </tr>
+                <tr class="row" >
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGSBYPROMOTERSINMINESONE']|json}}</td>
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGBYFIIINMINESONE']|json}}</td>
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGBYDIIMINESONE']|json}}</td>
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGSBYPUBLICINMINESONE']|json}}</td>
+                </tr>
+                <tr class="row" >
+                    <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGSBYPROMOTERSINZERO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGBYFIIINZERO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGBYDIIZERO']|json}}</td>
+                <td class="col-lg-3 box ">{{a.jsonData[0]['HOLDINGSBYPUBLICINZERO']|json}}</td>
+            </tr>
+                <tr class="row" >
+                    <td colspan="4" class="col-lg-4 box ">{{a.jsonData[0]['TAKEAWAYSFORCHNAGESINHOLDINGPATTERNS']|json}}</td>
+                </tr>
+            </table>
+            </div>
+</div>
+</body>

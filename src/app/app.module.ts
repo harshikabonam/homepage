@@ -12,10 +12,14 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 
+import{HttpClientModule} from '@angular/common/http';
+import { DetailsComponent } from './details/details.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,8 @@ import {ScrollingModule} from '@angular/cdk/scrolling';
     MatAutocompleteModule ,
     ReactiveFormsModule,
     FormsModule,
-    ScrollingModule
+    ScrollingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
